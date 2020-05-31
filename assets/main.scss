@@ -1,0 +1,55 @@
+---
+
+---
+
+@import "minima";
+
+#about {text-align: center;
+	background-color: white;
+}
+
+.proj {background-color: white; padding: 0.5em; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+
+.projicon {width: 5em; float:right; display: inline;}
+
+.active, .proj:hover {background-color: #F0F0F0;}
+
+
+.panel {background-color: white; 
+	  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {background-color: white; background-image: url("bgsvg2.svg"); background-repeat: no-repeat; background-size: cover;
+background-attachment: fixed;
+}
+
+.top{
+	float: left;
+	background-color: white;
+}
+
+h1, h2, h3{
+	background-color: white;
+}
+
+.dates{
+	float: right;
+	font-style: italic;
+}
+
+/* img src: freesvg.org */
+
+.proj:after {
+  content: "\25BC"; /* Unicode character for "plus" sign (+) */
+  font-size: 1em;
+  color: black;
+  float: left;
+
+}
+
+.active:after {
+  content: "\25B2"; /* Unicode character for "minus" sign (-) */
+}
