@@ -1,5 +1,6 @@
 ---
 layout: home
+title: ABOUT+PROJECTS
 permalink: /projects/
 jsloc: /assets/js/actions.js
 ---
