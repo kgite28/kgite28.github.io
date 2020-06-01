@@ -43,11 +43,11 @@ h1, h2, h3{
 /* img src: freesvg.org */
 
 .proj:after {
-  content: "\25BC"; /* Unicode character for "plus" sign (+) */
+  content: "more \25BC"; /* Unicode character for "plus" sign (+) */
   font-size: 1em;
   color: black;
 }
 
 .active:after {
-  content: "\25B2"; /* Unicode character for "minus" sign (-) */
+  content: "less \25B2"; /* Unicode character for "minus" sign (-) */
 }
